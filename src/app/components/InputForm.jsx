@@ -3,7 +3,7 @@ export default function InputForm({ jsonInput, setJsonInput, onSubmit }) {
     <div className="mb-5">
       <label className="block mb-2 text-lg font-medium">API Input</label>
       <textarea
-        className="w-full p-2 border rounded"
+        className="w-full p-2 border rounded text-black"
         rows="4"
         placeholder='Enter JSON like 
         { "data": ["A", "1", "z"] } or 
